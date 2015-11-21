@@ -1,0 +1,74 @@
+from timeadt import Time
+
+
+def main():
+    time1 = Time(2, 5, 44)
+    time2 = Time(13, 24, 11)
+    # timeWrong = Time(25,0,0)
+    timeWrong = Time(23, 0, 0)
+    # timeWrong = Time(24.5,0,0)
+    #time3 = Time(25,0,0)
+    #time4 = Time(0,61,0)
+    #time5 = Time(0,0,61)
+    time6 = Time(0, 0, 0)
+    timenoon = Time(12, 0, 0)
+    timenoon2 = Time(23, 59, 59)
+    midnight = Time(0, 0, 0)
+    midnight2 = Time(23, 59, 59)
+
+    print(timeWrong)
+    print((timenoon.isAM()))
+    #
+    print((midnight.isPM()))
+    print((midnight.isAM()))
+    #
+    # print timenoon
+    # print timenoon2
+    #
+    print(timenoon.numSeconds(timenoon2))
+    print(midnight.numSeconds(midnight2))
+    #
+    time10 = Time(14, 20, 0)
+    #
+    # print time10
+    # print time6
+    #
+    # print time1
+    # print time2
+    #
+    print(time2.numSeconds(time1))
+    #
+    timesecondtest = Time(5, 5, 5)
+    timesecondtest2 = Time(5, 4, 4)
+    timesecondtest3 = Time(5, 6, 6)
+    #
+    if (timesecondtest > timesecondtest2) is True:
+         print ('override works 1')
+    if timesecondtest < timesecondtest2:
+         print ('should not print ')
+    if timesecondtest2 < timesecondtest:
+        print ( 'wtf...')
+    if timesecondtest>=timesecondtest:
+         print ("should print true")
+    if timesecondtest2<=timesecondtest:
+        print('should print also.  rhs is evaluated due to the rhs being a user defined class')
+
+    if timesecondtest2>=timesecondtest:
+        print ( 'print')
+    # if timesecondtest>timesecondtest2 is True:
+    #     print "hooray should print true"
+    # else:
+    #     print "shouldn't print"
+    # if timesecondtest<=timesecondtest2 is True :
+    #     print "sholdn't prnt"
+    #
+    # else:
+    #     print "good this works also"
+    print (timesecondtest!=timesecondtest)
+    print (timesecondtest!=timesecondtest2)
+    print (timesecondtest==timesecondtest2)
+    print (time1==time1)
+    print (time1==5)
+
+
+main()

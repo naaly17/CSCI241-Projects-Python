@@ -1,0 +1,52 @@
+*********************************
+Sorted by StudentID
+********************************
+abb     95      A
+acb     99      A
+add     76      C
+bbb     100     A
+ben     60      D
+far     100     A
+fil     60      D
+fil     50      F
+hil     70      C
+huy     73      C
+jef     14      F
+jor     78      C
+kah     80      B
+rsd     90      A
+rst     88      B
+srt     4       F
+stu     89      B
+ttt     54      F
+tty     54      F
+wa      8       F
+z       1       F
+z       100     A
+z       95      A
+**********************************
+Sorted by Grade
+**********************************
+bbb     100     A
+far     100     A
+z       100     A
+acb     99      A
+abb     95      A
+z       95      A
+rsd     90      A
+stu     89      B
+rst     88      B
+kah     80      B
+jor     78      C
+add     76      C
+huy     73      C
+hil     70      C
+ben     60      D
+fil     60      D
+ttt     54      F
+tty     54      F
+fil     50      F
+jef     14      F
+wa      8       F
+srt     4       F
+z       1       F
