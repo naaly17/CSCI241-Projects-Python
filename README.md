@@ -1,5 +1,5 @@
 # Data-Structures-Projects
-Python Programming Projects from CSCI 201 (Spring 2015) :
+Python Programming Projects from Data Structures,CSCI 241 (Spring 2015) :
 
 - Array/Vector Data Structure Implementation: Create a class to implement all essential functionality of a Python Array
 - Binary Search Tree Class
